@@ -1,0 +1,10 @@
+/* Contents of {repository-root}/.devcontainer/devcontainer.json */
+
+{
+    // Open port 3000 by default
+    "extensions": [
+        "piotrpalarz.vscode-gitignore-generator"
+    ],
+
+    "dockerFile": "https://hub.docker.com/r/archlinux/base/"
+}
