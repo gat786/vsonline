@@ -1,0 +1,11 @@
+/home/vsonline/workspace/bin/Debug/netcoreapp2.1/workspace.deps.json
+/home/vsonline/workspace/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.json
+/home/vsonline/workspace/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.dev.json
+/home/vsonline/workspace/bin/Debug/netcoreapp2.1/workspace.dll
+/home/vsonline/workspace/bin/Debug/netcoreapp2.1/workspace.pdb
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.csprojAssemblyReference.cache
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.csproj.CoreCompileInputs.cache
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.AssemblyInfoInputs.cache
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.AssemblyInfo.cs
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.dll
+/home/vsonline/workspace/obj/Debug/netcoreapp2.1/workspace.pdb

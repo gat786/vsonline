@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vsonline/workspace/workspace.csproj": {}
+  },
+  "projects": {
+    "/home/vsonline/workspace/workspace.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vsonline/workspace/workspace.csproj",
+        "projectName": "workspace",
+        "projectPath": "/home/vsonline/workspace/workspace.csproj",
+        "packagesPath": "/var/nuget",
+        "outputPath": "/home/vsonline/workspace/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/opt/dotnet/sdks/2.1.802/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/vsonline/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
