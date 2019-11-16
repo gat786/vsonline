@@ -26,6 +26,7 @@ namespace workspace
                 Console.WriteLine($"Printinf from the Main thread");
 
             }
+            //starting the thread
             t1.Start();
 
 
