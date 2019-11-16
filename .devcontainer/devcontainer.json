@@ -6,5 +6,5 @@
         "piotrpalarz.vscode-gitignore-generator"
     ],
 
-    "image": "archlinux"
+    "dockerFile": "dockerfile"
 }
