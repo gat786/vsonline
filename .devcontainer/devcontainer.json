@@ -4,7 +4,5 @@
     // Open port 3000 by default
     "extensions": [
         "piotrpalarz.vscode-gitignore-generator"
-    ],
-
-    "dockerFile": "dockerfile"
+    ]
 }
