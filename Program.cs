@@ -15,19 +15,29 @@ namespace workspace
             
             var t1 = new Task(() =>
             {
-                for (int i = 0; i < 50; i++)
+                for (int i = 0; i < 10; i++)
                 {
                     Console.WriteLine($"Printing from the thread {i}");
                 }
             });
+
+            var t2 = new Task(() =>{
+                for(int i = 0; i < 10; i++){
+                    Console.WriteLine("Printing from the other thread {i}");
+                }
+            });
             
-            for(int i = 0; i < 50; i++)
+            for(int i = 0; i < 10; i++)
             {
-                Console.WriteLine($"Printinf from the Main thread");
+                Console.WriteLine($"Printing from the Main thread {i}");
 
             }
             //starting the thread
             t1.Start();
+            t2.Start();
+            t2.Wait();
+            t1.Wait();
+            Console.WriteLine("Exiting the program");
 
 
 
